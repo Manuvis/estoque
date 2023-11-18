@@ -5,7 +5,7 @@ public class Estoque {
     private String armazen;
     private String prateleira;
 
-    // Construtor
+
     public Estoque(Produto produto, int quantidade, String armazen, String prateleira) {
         this.produto = produto;
         this.quantidade = quantidade;

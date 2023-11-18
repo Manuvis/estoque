@@ -6,18 +6,15 @@ public class Produto {
     private int codigoProduto;
     private String nomeProduto;
     private String descricao;
-    private Date data_cadastro;
-
-
-
+    private Date dataCadastro;
     private Fornecedor fornecedor;
 
-    public Produto(int id_produto, int codigoProduto, String nomeProduto, String descricao, Date data_cadastro, Fornecedor fornecedor) {
+    public Produto(int id_produto, int codigoProduto, String nomeProduto, String descricao, Date dataCadastro, Fornecedor fornecedor) {
         this.id_produto = id_produto;
         this.codigoProduto = codigoProduto;
         this.nomeProduto = nomeProduto;
         this.descricao = descricao;
-        this.data_cadastro = data_cadastro;
+        this.dataCadastro = dataCadastro;
         this.fornecedor = fornecedor;
     }
 
@@ -28,7 +25,7 @@ public class Produto {
                 ", codigoProduto=" + codigoProduto +
                 ", nomeProduto='" + nomeProduto + '\'' +
                 ", descricao='" + descricao + '\'' +
-                ", data_cadastro=" + data_cadastro +
+                ", dataCadastro=" + dataCadastro +
                 '}';
     }
 
@@ -64,12 +61,11 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public Date getData_cadastro() {
-        return data_cadastro;
+    public Date getDataCadastro() {
+        return dataCadastro;
     }
-
-    public void setData_cadastro(Date data_cadastro) {
-        this.data_cadastro = data_cadastro;
+    public void setDataCadastro(Date data_cadastro) {
+        this.dataCadastro = data_cadastro;
     }
     public Fornecedor getFornecedor() {
         return fornecedor;

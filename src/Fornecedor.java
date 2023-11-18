@@ -16,21 +16,6 @@ public class Fornecedor extends Pessoa {
         this.cnpj = cnpj;
     }
 
-    public void cadastrarFornecedor(String nome) {
-
-    }
-
-    public String buscarFornecedorPorNome(String nome) {
-        return ;
-    }
-
-    public String listarFornecedor() {
-        return ;
-    }
-
-    public void deletarFornecedor(String cnpj) {
-
-    }
 
     public int getIdFornecedor() {
         return idFornecedor;
